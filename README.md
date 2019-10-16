@@ -43,9 +43,33 @@
 ```
 注：&pageNum=1&pageSize=250 两个参数可以不写,有默认值; 相关参数说明：
 
-![请求参数](src/main/image/params2.PNG)
+| key | 是否必要 | 类型 | 说明 |
+| ------ | ------ | ------ | ------ |
+| periodId | 必要 | string | 统计日期，格式如： 201908 |
+| pageSize | 可选 | int | 页大小，默认 250 |
+| pageNum | 可选 | int | 页码 (默认从1开始) |
 
-![响应结果说明](https://github.com/pengyucheng/openapi/tree/master/src/main/image/params.PNG)
+| key | 是否必要 | 类型 | 说明 |
+| ------ | ------ | ------ | ------ |
+| status | 必要 | int | 0：success    -1: 请求参数异常 -2：数据响应异常，请稍后重试 |
+| msg | 必要 | String | 响应消息 |
+| data | 必要 | Object | 返回数据 |
+| apiName | 必要 | String | 请求接口名称 |
+
+| key | 是否必要 | 类型 | 说明 |
+| ------ | ------ | ------ | ------ |
+| result | 必要 | List<Object> | 实际数据列表 |
+| hasNext | 必要 | boolean | 是否有下一页(true: 是， false: 否) |
+| totalSize | 必要 | int | 总记录数 |
+| pageNum | 必要 | int | 当前页码 |
+	
+| key | 是否必要 | 类型 | 说明 |
+| ------ | ------ | ------ | ------ |
+| area | 必要 | String | 区域 |
+| orgName | 必要 | String | 国家 |
+| periodId | 必要 | String | 开票时间 |
+| billingQty | 必要 | String | 开票数量 |
+	
 
 
 #### 项目架构摘要
