@@ -43,7 +43,7 @@
 ```
 注：&pageNum=1&pageSize=250 两个参数可以不写,有默认值; 相关参数说明：
 
-![请求参数](https://github.com/pengyucheng/openapi/tree/master/src/main/image/params2.PNG)
+![请求参数](../src/main/image/params2.PNG)
 
 ![响应结果说明](https://github.com/pengyucheng/openapi/tree/master/src/main/image/params.PNG)
 
