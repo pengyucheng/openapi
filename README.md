@@ -1,4 +1,5 @@
-## 在项目中实践设计模式相关源代码说明
+<center>## 在项目中实践设计模式相关源代码说明</center>
+
 ---
 
 ## 项目一
@@ -64,6 +65,7 @@
 | apiName | 必要 | String | 请求接口名称 |
 
 data 具体格式：
+
 | key | 是否必要 | 类型 | 说明 |
 | ------ | ------ | ------ | ------ |
 | result | 必要 | List<Object> | 实际数据列表 |
@@ -71,7 +73,8 @@ data 具体格式：
 | totalSize | 必要 | int | 总记录数 |
 | pageNum | 必要 | int | 当前页码 |
 
-result 中 Object 字段
+result 中 Object 字段:
+
 | key | 是否必要 | 类型 | 说明 |
 | ------ | ------ | ------ | ------ |
 | area | 必要 | String | 区域 |
@@ -79,7 +82,6 @@ result 中 Object 字段
 | periodId | 必要 | String | 开票时间 |
 | billingQty | 必要 | String | 开票数量 |
 	
-
 
 #### 项目架构摘要
 
