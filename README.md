@@ -41,7 +41,12 @@
 } 
 
 ```
-注：&pageNum=1&pageSize=250 两个参数可以不写,有默认值。
+注：&pageNum=1&pageSize=250 两个参数可以不写,有默认值; 相关参数说明：
+
+![请求参数](src/main/image/params2.PNG)
+
+![响应结果说明](src/main/image/params.PNG)
+
 
 #### 项目架构摘要
 
@@ -49,7 +54,11 @@
  
 #### 用到的设计模式
 
-### 1] [build 模式](https://blog.csdn.net/pengych_321/article/details/100175152) ：应用构造器模式封装响应结果。
+#### 1] [build 模式](https://blog.csdn.net/pengych_321/article/details/100175152) 
 
-### 2] [简单工厂模式](https://blog.csdn.net/pengych_321/article/details/100175152) ：应用简单工厂模式生成 ResponseBuilder 类。
+应用构造器模式封装响应结果。
+
+#### 2] [简单工厂模式](https://blog.csdn.net/pengych_321/article/details/100175152)
+
+应用简单工厂模式生成 ResponseBuilder 类。
 
