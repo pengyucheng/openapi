@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.Import;
-import org.xiaoh.data.openapi.config.DruidDataSourceConfig;
+import org.xiaoh.data.openapi.common.config.DruidDataSourceConfig;
 
 /**
  * 
