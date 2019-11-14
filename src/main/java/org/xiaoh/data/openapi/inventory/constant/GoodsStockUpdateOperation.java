@@ -1,0 +1,26 @@
+package org.xiaoh.data.openapi.inventory.constant;
+
+/**
+ * @Description: 商品库存更新操作
+ * @author pengyc
+ * @date 2019年11月11日 
+ * @ClassName: GoodsStockUpdateOperation
+ *
+ */
+public class GoodsStockUpdateOperation
+{
+    /**
+     * 提交订单
+     */
+    public static final Integer SUBMIT_ORDER = 1;
+    /**
+     * 支付订单
+     */
+    public static final Integer PAY_ORDER = 2;
+    /**
+     * 取消订单
+     */
+    public static final Integer CANCEL_ORDER =3 ;
+    
+    private GoodsStockUpdateOperation() {};
+}
