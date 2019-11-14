@@ -94,7 +94,7 @@ public class InventoryServiceTest
             assertEquals((long)oldSaleStockQty - purchaseQuantity,(long)getSaleStockQuantity(goodsSkuId));
         }
         
-        // 异步通知
+        // 异步通知: 这里Junit测试并没有通过，作为遗留问题，后续跟进
          assertAsyncOperation();
     }
 
